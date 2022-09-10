@@ -2,8 +2,8 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/ppiapp
     driver-class-name: org.postgresql.Driver
-    username: ${DB_USERNAME:admin}
-    password: ${DB_PASSWORD:admin}
+    username: admin
+    password: admin
   jpa:
     show-sql: true
     hibernate:
